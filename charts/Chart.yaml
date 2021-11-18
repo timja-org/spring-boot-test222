@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: "1.0"
+description: A Helm chart for test-onetwo App
+name: test-onetwo
+home: https://github.com/hmcts/test-onetwo
+version: 0.0.1
+maintainers:
+  - name: HMCTS test team
+dependencies:
+  - name: java
+    version: 3.0.2
+    repository: '@hmctspublic'
